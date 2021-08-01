@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 1em;
+            /*
+            Peso da fonte:
+            lighter = fina
+            normal
+            bold = negrito
+            bolder = mais negrito
+
+            também aceita valores numéricos:
+            100 - 900
+            */
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+
+        }
+        /* 
+        Short Hand para fonte
+        font: font-style, font-weight, font-size, font-family;
+        */
+        h1 {
+            font: italic normal 4em 'Arial', sans-serif;
+        }
+        
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título Principal da Página</h1>
+    <h2>Subtítulo da Página</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur itaque dolor ipsam hic deserunt, eum architecto adipisci, voluptas voluptates molestiae ab fuga repellendus? Distinctio similique veritatis quas consequuntur commodi consequatur?</p>
+    <h2>Subtítulo da Página</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, animi aliquam vel iusto quis ex labore deleniti magnam atque! Accusantium nisi, aliquid et non ea ipsam quis tenetur dolores deleniti.</p>
+</body>
+</html>
