@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Models</title>
+    <style>
+        body {
+            background: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            height: 150px;
+            background-color: darkgray;
+            width: 500px;
+            border: 1px solid black;
+            
+        }
+        div > h1 {
+            margin-left: 10px;
+        }
+        p > a {
+            border: 1px solid red;
+            text-decoration: none;
+        }
+
+        p {
+            text-indent: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Modelos de Caixa em CSS</h1>
+    </div>
+    <p>A tag p é um modelo de box-level. Ja a tag a <a href="#">é uma tag do tipo inline-level</a></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa doloremque, praesentium a iste et, eius possimus, voluptates eveniet cumque maiores nobis animi! Obcaecati error numquam itaque, mollitia dignissimos a.</p>
+</body>
+</html>
