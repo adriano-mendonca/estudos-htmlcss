@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body { 
+            font-family: sans-serif;
+            background: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(116, 116, 116);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: 0.6s;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: lightskyblue;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section#noticias > article {
+            padding: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(155, 155, 155);
+            text-align: right;
+            
+        }
+
+        aside > p {
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu Site</h1>
+        <nav> <!-- Navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal-->
+        <section id="assuntos"> <!-- Seção -->
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Sobre Polílica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, eligendi culpa! Ullam distinctio nesciunt sed, necessitatibus minus perferendis eius aperiam dicta iste commodi saepe tempore magni amet suscipit aliquid maxime!</p>
+                <aside> <!-- Parte-->
+                    <p>Artigo escrito por Natan Batista</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        Criado por Adriano Mendonça &copy;
+    </footer>
+</body>
+</html>
