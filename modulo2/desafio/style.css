@@ -16,6 +16,24 @@ header {
     background: linear-gradient(to bottom, #2AA25F, #05321A);
     color: white;
     padding: 1px;
+    height: auto;
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.548);
+}
+
+nav > a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+nav > a:hover {
+    opacity: 0.3;
+
 }
 
 header > h1 {
@@ -24,11 +42,6 @@ header > h1 {
 
 header > p {
     text-align: center;
-}
-
-header > a {
-    text-decoration: none;
-    color: white;
 }
 
 div#conteudo {
