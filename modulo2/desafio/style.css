@@ -15,33 +15,37 @@ body {
 header {
     background: linear-gradient(to bottom, #2AA25F, #05321A);
     color: white;
-    padding: 1px;
-    height: auto;
+    padding: 10px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    
 }
 
 header > p {
     color: rgba(255, 255, 255, 0.548);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
+
 
 nav > a {
     text-decoration: none;
-    margin: 10px;
-    color: white;
+    color: whitesmoke;
     padding: 10px;
+    position: inherit;
+    border-radius: 5px 0px;
+    margin: -3px;
+    font-weight: bold;
     transition: 0.5s;
+    
 }
 
 nav > a:hover {
-    opacity: 0.3;
-
-}
-
-header > h1 {
-    text-align: center;
-}
-
-header > p {
-    text-align: center;
+    color: #05321A;
+    background-color: #2AA25F;
 }
 
 div#conteudo {
@@ -51,8 +55,10 @@ div#conteudo {
     padding: 10px;
 }
 
-main > img {
-    margin: 10px;
+
+article > img {
+    display: block;
+    margin: 10px auto 10px auto;
 }
 
 article > h1 {
@@ -74,3 +80,23 @@ article > p {
     text-indent: 15px;
 }
 
+footer {
+    background-color: #19392A;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #3ddc84;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+p > a:hover {
+    color: #3ddc8556;
+    transition: 0.5s;
+}
