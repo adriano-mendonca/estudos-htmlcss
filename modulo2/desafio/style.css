@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E7E5C2;
+    background-color: #3ddc857c;
     margin: 0px;
 }
 
@@ -21,6 +21,7 @@ header {
 header > h1 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
+    font-weight: normal;
     
 }
 
@@ -53,6 +54,7 @@ div#conteudo {
     background-color: white;
     margin: 10px auto 10px auto;
     padding: 10px;
+    margin-top: 0px;
 }
 
 
@@ -78,6 +80,7 @@ article > h2 {
 
 article > p {
     text-indent: 15px;
+    text-align: justify;
 }
 
 footer {
