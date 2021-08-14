@@ -42,8 +42,8 @@ header > h1 {
 }
 
 header > p {
-    color: rgba(255, 255, 255, 0.548);
-    font-family: 'Bebas Neue', cursive;
+    color: var(--cor2);
+    font-family: var(--font-padrao);
     text-align: center;
 }
 
@@ -69,6 +69,8 @@ main {
     width: 800px;
     background-color: white;
     margin: auto;
+    min-width: 280px;
+    max-width: 800px;
     padding: 10px;
     margin-top: 0px;
 }
@@ -76,29 +78,35 @@ main {
 
 article > img {
     display: block;
-    margin: 10px auto 10px auto;
+    margin: auto;
 }
 
 article > h1 {
     font-size: 2em;
+    color: black;
+
 }
 
 article > h1, h2 {
     font-family: 'idroid';
-    color: #19392A;
-    margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 article > h2 {
     background: linear-gradient(to right, #8CE3B2, white);
+    color: var(--cor6);
 }
 
 article > p {
     text-indent: 15px;
     text-align: justify;
+    margin-top: 10px 0px 10px 0px;
 }
 
+aside > p {
+    text-indent: 15px;
+}
 footer {
     background-color: var(--cor6);
     color: white;
@@ -108,11 +116,12 @@ footer {
 
 footer > p > a {
     text-decoration: none;
-    color: #3ddc84;
+    color: var(--cor2);
 }
 
 footer > p {
     margin: 0px;
+    font-family: var(--font-padrao);
 }
 
 p > a:hover {
