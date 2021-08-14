@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #2AA25F, #05321A);
+    background: linear-gradient(to bottom, var(--cor4), var(--cor6));
     color: white;
     padding: 10px;
 }
@@ -54,7 +54,7 @@ nav > a {
     padding: 10px;
     position: inherit;
     border-radius: 5px 0px;
-    margin: -3px;
+    margin: -2px;
     font-weight: bold;
     transition: 0.5s;
     
@@ -69,7 +69,7 @@ main {
     width: 800px;
     background-color: white;
     margin: auto;
-    min-width: 280px;
+    min-width: 300px;
     max-width: 800px;
     padding: 10px;
     margin-top: 0px;
