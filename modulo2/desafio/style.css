@@ -179,7 +179,7 @@ aside > ul {
 }
 
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -194,6 +194,6 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--cor2);
+    color: var(--cor4);
     text-decoration: underline;
 }
