@@ -7,11 +7,21 @@
 
 :root {
     --cor-principal: #fecb3e;
-
+    --cor-destaque: #000000;
     --font-principal: 'Arial', sans-serif;
     --font-alternativa: 'Georgia';
 }
 
-h1 {
-    font-family: ;
+body {
+    font-family: var(--font-principal);
+}
+
+header {
+    background-color: var(--cor-principal);
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
