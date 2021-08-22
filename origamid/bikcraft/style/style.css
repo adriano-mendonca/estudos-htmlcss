@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor-principal: #fecb3e;
+
+    --font-principal: 'Arial', sans-serif;
+    --font-alternativa: 'Georgia';
+}
+
+h1 {
+    font-family: ;
+}
