@@ -223,8 +223,23 @@ img {
     padding-top: 60px 0;
 }
 
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../images/icones/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+}
+
 .qualidade img {
     margin: 0 auto;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
 }
 
 .qualidade_lista li {
