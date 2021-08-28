@@ -2,8 +2,64 @@
 
 /*Estilos Gerais*/
 
+:root {
+    --cor-principal: #fec63e;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid var(--cor-principal);
+    padding: 10px 30px;
+    color: var(--cor-principal);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: white;
+    border-color: white;
+}
+
+.btn.btn-preto:hover {
+    color: black;
+    border-color: black;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 8px auto;
+}
+
+img {
+    display: block;
 }
 
 /*Header*/
@@ -11,8 +67,9 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #fec63e;
+    background: var(--cor-principal);
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
@@ -33,11 +90,162 @@ body {
     font-size: 14px;
     line-height: 20px;
     padding: 10px 0;
+    transition: 0.4s;
 }
 
 .header_menu ul li a:hover {
     color: white;
 } 
 
-/*Nav*/
+/*Introdução*/
 
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../images/mesa-trabalho.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p::before, .quote-externo p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+/*Produtos*/
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li {
+    background: var(--cor-principal);
+    text-align: center;
+
+}
+
+.produtos_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;  
+}
+
+.produtos_lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+}
+
+.produtos_lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+    background: black;
+    padding: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+/*Portfólio*/
+
+.portfolio {
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: var(--cor-principal);
+}
+
+.portfolio .subtitulo::after {
+    background: var(--cor-principal);
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+    color: white;
+}
+
+/*Qualidade*/
+
+.qualidade {
+    padding-top: 60px 0;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;  
+}
+
+.qualidade_lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 6px auto;
+}
