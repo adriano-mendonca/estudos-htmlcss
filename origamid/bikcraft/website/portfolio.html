@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/portfolio.css">
     <link rel="stylesheet" href="estilos/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -28,23 +29,35 @@
     </header>
     <section class="introducao-interna interna-portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>conheça os projetos que amamos</p>
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="800" class="fadeInDown">conheça os projetos que amamos</p>
         </div>
     </section>
-
-    <section class="container">
+    <section data-anime="1200" class="container fadeInDown" data-slide="quote">
         <blockquote class="quote-clientes">
-            <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-            <cite>Bárbara Moss</cite>
+            <p>"Se você vê alguém se afogando e sabe como nadar, você tem o dever moral de salvá-lo, a menos que um deles seja jogador de Free Fire ou fã de k-pop."</p>
+            <cite>Richard Stallman</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Software é como sexo: é melhor quando é de graça."</p>
+            <cite>Linus Torvalds</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"A web evoluiu para um motor de injustiça e divisão; balanceada por poderosas forças que usam-na para seus próprios interesses(agendas)"</p>
+            <cite>Tim Berners-Lee</cite>
         </blockquote>
     </section>
 
     <section class="portfolio">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
             <ul class="portfolio-lista">
                 <li class="grid-8"><img src="images/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
                 <li class="grid-8"><img src="images/portfolio/passeio.jpg" alt="Bicicleta Retro"></li>
+                <li class="grid-16"><img src="images/portfolio/esporte.jpg" alt="Bicicleta Retro"></li>
+            </ul>
+            <ul class="portfolio-lista">
+                <li class="grid-8"><img src="images/portfolio/passeio.jpg" alt="Bicicleta Retro"></li>
+                <li class="grid-8"><img src="images/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
                 <li class="grid-16"><img src="images/portfolio/esporte.jpg" alt="Bicicleta Retro"></li>
             </ul>
         </div>
@@ -88,5 +101,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

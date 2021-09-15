@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/sobre.css">
     <link rel="stylesheet" href="estilos/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -28,12 +29,12 @@
     </header>
     <section class="introducao-interna interna-sobre">
         <div class="container">
-            <h1>Sobre</h1>
-            <p>conheça mais sobre o bikcraft</p>
+            <h1 data-anime="400" class="fadeInDown">Sobre</h1>
+            <p data-anime="800" class="fadeInDown">conheça mais sobre o bikcraft</p>
         </div>
     </section>
 
-    <section class="missao-sobre container">
+    <section data-anime="1200" class="missao-sobre container fadeInDown">
         <div class="grid-10">
             <h2 class="subtitulo-interno">História, Missão e Visão</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quod quia, blanditiis possimus non reiciendis officiis, porro pariatur temporibus ipsum commodi corporis aliquam maxime eius! Ea sint fuga sed ipsa?</p>
@@ -112,5 +113,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
