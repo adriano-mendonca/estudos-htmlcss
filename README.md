@@ -1,4 +1,4 @@
-# Estudos em HTML5 e CSS3 / Projeto Bikcraft (Origamid) #
+# Estudos em HTML5 e CSS3 #
 **Conteúdo no site [Curso em Vídeo](https://cursoemvideo.com)** 
 
 **YouTube do [Curso em Vídeo](https://www.youtube.com/user/cursosemvideo)**
